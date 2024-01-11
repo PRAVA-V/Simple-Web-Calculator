@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./calculator.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-flued">
+        <h1>calculator</h1>
+        <div class="cont">
+            <input type="number" id="fnum" value="" placeholder="Enter the first Number" required><br>
+            <input type="number" id="snum" value="" placeholder="Enter the second number" required>
+            <p id="store"></p>
+        </div>
+        <div class="btn">
+            <button type="button" onclick="addfun()" id="add">Addition</button>
+            <button type="button" onclick="subtrafun()" id="subtraction">subtraction</button>
+            <button type="button" onclick="multiplyfun()" id="multiply">multiplication</button>
+            <button type="button" onclick="divisionfun()" id="division">division</button>
+        </div>
+
+    </div>
+    <Script src="./calculator.js"></Script>
+</body>
+
+</html>

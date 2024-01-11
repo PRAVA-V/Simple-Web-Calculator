@@ -1,0 +1,127 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container-flued {
+    border: 2px solid red;
+    width: 36%;
+    height: 350px;
+    margin: auto;
+    margin-top: 14%;
+    background-color: rgba(255, 55, 0, 0.312);
+    border-radius: 40px;
+    border-style: none;
+
+}
+
+.cont {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.container-flued input {
+    padding: 10px 15px;
+    border-style: none;
+    margin-bottom: 20px;
+    width: 84%;
+    transition: .3s;
+    border-radius: 46px;
+}
+
+.container-flued input:hover {
+    transform: scale(1.11);
+}
+
+.container-flued button {
+    margin-top: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 46px;
+    transition: .3s;
+    transition-duration: .4s;
+    padding: 5px 15px;
+
+}
+
+.container-flued button:hover {
+    color: aliceblue;
+    background-color: rgba(0, 0, 255, 0.176);
+}
+
+#store {
+    text-align: center;
+    color: antiquewhite;
+    background-color: green;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 70px;
+}
+
+.btn button {
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url("./calculator.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: blueviolet;
+
+    }
+
+    .container-flued,
+    .cont,
+    .btn,
+    #store {
+        margin-left: 0px;
+    }
+
+    .container-flued {
+        width: 70%;
+        height: 100vh;
+    }
+
+    #store {
+        margin: auto;
+        width: 50%;
+    }
+
+    .cont input {
+        margin-left: 5px;
+        width: 30;
+    }
+
+    .btn {
+        display: block;
+
+    }
+
+    .btn button {
+        display: block;
+        margin-left: 100px;
+
+    }
+}
